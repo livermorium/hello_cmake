@@ -1,0 +1,9 @@
+# project
+.vscode
+
+# python
+.pyc
+
+# build
+build
+release
