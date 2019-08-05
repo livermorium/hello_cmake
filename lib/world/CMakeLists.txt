@@ -20,3 +20,8 @@ install(TARGETS world world_static
     ARCHIVE DESTINATION ${PROJECT_SOURCE_DIR}/release/lib
     LIBRARY DESTINATION ${PROJECT_SOURCE_DIR}/release/lib
 )
+
+install(
+    FILES world.h
+    DESTINATION ${PROJECT_SOURCE_DIR}/release/include
+)

@@ -29,7 +29,7 @@ set_target_properties(
 add_library(hello_static STATIC ${hello_SRC})
 set_target_properties(
     hello_static PROPERTIES
-        ARCIHVE_OUTPUT_NAME hello
+        ARCHIVE_OUTPUT_NAME hello
         # CLEAN_DIRECT_OUTPUT 1
 )
 
@@ -53,6 +53,6 @@ install(
 )
 ## include
 install(
-    FILES lib/hello/hello.h lib/world/world.h
+    FILES lib/hello/hello.h
     DESTINATION ${PROJECT_SOURCE_DIR}/release/include
 )
