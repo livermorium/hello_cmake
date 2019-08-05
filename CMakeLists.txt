@@ -12,6 +12,8 @@ project("t2")
 include_directories(${PROJECT_SOURCE_DIR}/lib/world)
 add_subdirectory(${PROJECT_SOURCE_DIR}/lib/world)
 
+# link_directories(${PROJECT_SOURCE_DIR}/lib/world)
+
 # library hello
 include_directories(${PROJECT_SOURCE_DIR}/lib/hello)
 set(hello_SRC "lib/hello/hello.cpp")
